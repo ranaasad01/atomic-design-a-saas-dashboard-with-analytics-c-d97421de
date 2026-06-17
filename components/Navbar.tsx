@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
@@ -53,7 +53,7 @@ export default function Navbar() {
               <Activity className="w-4 h-4 text-white" />
             </motion.div>
             <span className="text-lg font-bold tracking-tight text-white group-hover:text-indigo-300 transition-colors">
-              {APP_NAME}
+              Pulse 
             </span>
           </Link>
 
