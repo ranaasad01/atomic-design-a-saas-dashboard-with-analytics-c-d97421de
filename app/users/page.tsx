@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { Search, Users, UserCheck, UserX, ChevronUp, ChevronDown, ArrowUpDown, Filter, Download, Eye, MoreHorizontal, TrendingUp } from 'lucide-react';
 import { fadeInUp, fadeIn, staggerContainer, scaleIn } from "@/lib/motion";
@@ -231,7 +231,7 @@ export default function UsersPage() {
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
             <div>
               <h1 className="text-3xl font-bold text-white tracking-tight">
-                User Management
+                User data
               </h1>
               <p className="text-[#94A3B8] mt-1 text-sm">
                 Monitor, filter, and manage all {totalUsers} registered users across your platform.
