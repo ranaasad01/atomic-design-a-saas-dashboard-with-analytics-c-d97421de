@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import {
   AreaChart,
@@ -202,7 +202,7 @@ export default function AnalyticsPage() {
               <BarChart2 className="w-5 h-5 text-indigo-400" />
               <span className="text-xs font-semibold text-indigo-400 uppercase tracking-widest">Analytics</span>
             </div>
-            <h1 className="text-3xl font-bold tracking-tight text-white">Analytics Deep-Dive</h1>
+            <h1 className="text-3xl font-bold tracking-tight text-white">Analytics</h1>
             <p className="text-sm text-[#64748B] mt-1">
               Detailed breakdown of user behavior, traffic, and revenue performance.
             </p>
